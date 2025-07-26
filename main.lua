@@ -60,6 +60,7 @@ if _G.charSelectExists then
     _G.charSelect.character_add_caps(E_MODEL_CHARITY, CAPTABLE_CHARITY)
     _G.charSelect.character_add_palette_preset(E_MODEL_CHARITY, PALETTE_CHARITY)
     _G.charSelect.character_set_category(CT_CHARITY, "Squishy Workshop")
+	_G.charSelect.character_add_graffiti(CT_CHARITY, get_texture_info("charity-graffiti"))
 
     -- the following must be hooked for each character added
     _G.charSelect.character_add_voice(E_MODEL_CHARITY, VOICETABLE_CHARITY)
